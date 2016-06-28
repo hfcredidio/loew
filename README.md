@@ -14,6 +14,20 @@ sweet figures for your paper.
 I've made the package to be simple of use, read and edit. Suggestions and
 pull requests are welcome.
 
+Install
+-------
+This package depends on `numpy` and `numexpr`. If you're using
+[anaconda](https://www.continuum.io/downloads) (and you should), You can easily
+install them with the command
+
+```
+conda install numpy numpexpr
+```
+
+Right now you can can use the package by simply downloading the folder to your
+working directory and importing it normally. I'm currently working to getting into 
+PyPI so you can pip install it.
+
 Examples
 --------
 
@@ -37,10 +51,11 @@ plt.show()
 References
 ----------
 Kager, Wouter, and Bernard Nienhuis. "A guide to stochastic Löwner evolution
-and its applications." Journal of statistical physics 115.5-6 (2004):
+and its applications."  
+Journal of statistical physics 115.5-6 (2004):
 1149-1229.
 
-Kennedy, Tom. "Numerical computations for the Schramm-Loewner evolution."
+Kennedy, Tom. "Numerical computations for the Schramm-Loewner evolution."  
 Journal of Statistical Physics 137.5-6 (2009): 839-856.
 
 License
