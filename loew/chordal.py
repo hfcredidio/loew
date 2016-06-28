@@ -23,10 +23,10 @@ def trace(t, u):
 def drive(z, destroy=False):
     if not destroy:
         z = np.copy(z)
-    for i, z in enumerate(z[1:], start=1):
-        z[i + 1:] = vslit_unzip(z[i + 1:], z.real, z.imag)
-    t = np.cumsum(z.real)
-    u = np.cumsum(z.imag ** 2 * 0.25)
+    for i, w in enumerate(z[1:], start=1):
+        z[i + 1:] = vslit_unzip(z[i + 1:], w.real, w.imag)
+    u = np.cumsum(z.real)
+    t = np.cumsum(z.imag ** 2 * 0.25)
     return t, u
 
 if __name__ == '__main__':
