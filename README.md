@@ -1,11 +1,18 @@
 LOEW - Schramm-Loewner Evolutions for Python
 --------------------------------------------
 
-`loew` is a python packages for simulations of
-Schramm-Loewner evolutions (SLE).
+`loew` is a package for simulation of Schramm-Loewner Evolutions (SLE).
 
-SLE is a nifty mathematical tool used .
+[SLE](https://en.wikipedia.org/wiki/Schramm%E2%80%93Loewner_evolution) is a
+nifty mathematical tool to analyze families of random fractals related to
+[critical phenomena](https://en.wikipedia.org/wiki/Critical_phenomena).
+In the last few years some work in the area has moved to numerics, so I hope
+this package will be of some help to those involved. But even if yours is a
+pure mathematics no-computers-allowed type of work, maybe you can use it to make some
+sweet figures for your paper.
 
+I've made the package to be simple of use, read and edit. Suggestions and
+pull requests are welcome.
 
 Examples
 --------
@@ -25,7 +32,7 @@ plt.plot(z.real, z.imag, lw=2)
 plt.gca().set_aspect('equal')
 plt.show()
 ```
-![](http://files.te52.com/testtalk/files/2015/04/testing.png)
+![](https://raw.githubusercontent.com/hfcredidio/loew/master/images/exmaple.png)
 
 References
 ----------
