@@ -111,6 +111,11 @@ def drive(z, destroy=False):
     z: 1d ndarrays of complex
         Points of the discretized trace.
 
+    destroy: bool, optional
+        If set to False, the routine make a copy of z before performing the
+        algorithm. Otherwise it destroys the information on the trace, but
+        saves memory. Default if False.
+
     Returns
     -------
     t: 1d ndarray of floats
