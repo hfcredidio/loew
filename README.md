@@ -28,8 +28,11 @@ Right now you can can use the package by simply downloading the folder to your
 working directory and importing it normally. I'm currently working to getting into 
 PyPI so you can pip install it.
 
-Examples
+Example
 --------
+Be sure to check the [jupyter
+notebook](https://github.com/hfcredidio/loew/blob/master/Examples.ipynb) for
+more examples.
 
 ```python
 import matplotlib.pyplot as plt
